@@ -25,8 +25,8 @@ else if (words.length>4){
 }
 
  function findTheCheese (foods) {
+
 for(let i = 0; i < foods.length; i++){
-  foods.shift();
   if (foods[i] === 'gouda'){
       return 'gouda';
     }
